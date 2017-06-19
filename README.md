@@ -153,3 +153,20 @@
 		}
     
 	response: bool true | false
+	
+	
+8. Add Payment
+
+	url: /apis/orders/payment
+  
+	type:put
+  
+	param:required[order_id,amount,type]
+  
+	ex. {	
+			"order_id":19,
+			"amount":22.4,
+			"type":"COD"		
+		}
+    
+	respone: Json Object
