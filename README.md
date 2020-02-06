@@ -1,8 +1,6 @@
-# [ Order Management APIs ]
-## Technology User
-* Lumen Laravel comonet 5.5
-## User Guide
+# [ Order Management APIs : Lumen 5.5]
 
+## User Guide
 
 1.search for a user
 	
@@ -43,11 +41,8 @@
 
 
 	url: /apis/orders/id
-  
 	type:get
-  
 	param:required[id]
-  
 	response: JSON Object
   
 	
@@ -60,26 +55,26 @@
 	    "updated_at": "2017-06-19 04:53:12"
 	  },
 	  "items": [
-                {
-                  "id": 5,
-                  "order_id": 14,
-                  "name": "",
-                  "price": 0,
-                  "quantity": 0,
-                  "created_at": "2017-06-19 03:37:47",
-                  "updated_at": null
-                },
-                {
-                  "id": 6,
-                  "order_id": 14,
-                  "name": "",
-                  "price": 0,
-                  "quantity": 0,
-                  "created_at": "2017-06-19 03:44:30",
-                  "updated_at": null
-                }
-              ]
-	    }
+			{
+			  "id": 5,
+			  "order_id": 14,
+			  "name": "",
+			  "price": 0,
+			  "quantity": 0,
+			  "created_at": "2017-06-19 03:37:47",
+			  "updated_at": null
+			},
+			{
+			  "id": 6,
+			  "order_id": 14,
+			  "name": "",
+			  "price": 0,
+			  "quantity": 0,
+			  "created_at": "2017-06-19 03:44:30",
+			  "updated_at": null
+			}
+              	]
+  }
 
 
 
